@@ -1,0 +1,39 @@
+{
+  "name": "agilov/yii2-testing-kit",
+  "description": "Advanced testing kit for Yii2",
+  "keywords": [
+    "yii2",
+    "testing"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/agilov/yii2-testing-kit/issues",
+    "source": "https://github.com/agilov/yii2-testing-kit"
+  },
+  "authors": [
+    {
+      "name": "Roman Agilov",
+      "email": "agilovr@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": ">=2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=6.3",
+    "codeception/verify": "1.*",
+    "yiisoft/yii2-faker": "2.*"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "agilov\\yii2testingkit\\": "src/"
+    }
+  }
+}
